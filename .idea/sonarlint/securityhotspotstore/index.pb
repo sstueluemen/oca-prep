@@ -440,3 +440,13 @@ G.idea/sonarlint/issuestore/8/e/8e81cf11450077214ba350ea0ba9ed694bc395f1,0\6\06
 Q.idea/sonarlint/securityhotspotstore/a/5/a5fd33cdefef73f893557e24a010c7f884013f96,1\5\155fa7ffe43d75832222c56e929851eff4342c6a
 w
 G.idea/sonarlint/issuestore/0/0/00d70eb8cf07bf0bdeb01172f181cd1d9de64965,f\8\f868666fd8a1b13f2665945df47359dcbfb49b58
+M
+_002-data_types/src/Main.java,3\2\3246ab7ad5b20ec47c9bf2da86f3f33d9b1251c3
+R
+"_002-data_types/docu/data-types.md,e\9\e957f51c6b378332ef8d94aec2a378d26be5aa95
+\
+,_002-data_types/src/primitives/Integers.java,5\7\576556abadf1e8f211c46a793cd0e7efd9091412
+X
+(_002-data_types/src/primitives/afaf.java,4\5\45327fc78652d8e37830e180e294b33d3dd0c62b
+V
+&_002-data_types/src/primitives/jk.java,4\1\4182ba79bbb5fd031f255a13bf37dd1af6d6fd71
