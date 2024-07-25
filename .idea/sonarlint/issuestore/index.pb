@@ -1,0 +1,33 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+O
+package-accessmodifiers/pom.xml,7\1\710b309c493e4e426188577023f8a2d9deb760cd
+k
+;package-accessmodifiers/src/main/java/org/example/Main.java,7\6\765984663d8f2052f0e0d7d6b01facdc8163adc1
+V
+&package-access-modifiers/src/Main.java,5\4\54a88d531cac3c1fee9174b68ccf691affde4ab6
+Z
+*001-package-access-modifiers/src/Main.java,2\1\21f1e53d9293369de50ff07a783456e82e96324b
+m
+=001-package-access-modifiers/docu/package-access-modifiers.md,1\2\121baec8213732047cc96666201e8c88b005fd49
+w
+G.idea/sonarlint/issuestore/7/1/710b309c493e4e426188577023f8a2d9deb760cd,3\9\395653dae2dbc5d8c6f76a6b85420b66e60bbed2
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Å
+Q.idea/sonarlint/securityhotspotstore/5/4/54a88d531cac3c1fee9174b68ccf691affde4ab6,f\6\f6dabbd0836bd4486d589cd53235ef7b60d64b67
+Å
+Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
+Å
+Q.idea/sonarlint/securityhotspotstore/7/1/710b309c493e4e426188577023f8a2d9deb760cd,3\4\3420706fe48d851b3748614f45cc7014f271495f
+Å
+Q.idea/sonarlint/securityhotspotstore/7/6/765984663d8f2052f0e0d7d6b01facdc8163adc1,4\d\4d7c1acc43ab489d593658ab19a367f436312953
+w
+G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
+m
+=001-package-access-modifiers/001-package-access-modifiers.iml,7\2\72527030c11e1f9aaad79a231f25ddc4ef90c620
+Å
+Q.idea/sonarlint/securityhotspotstore/2/1/21f1e53d9293369de50ff07a783456e82e96324b,4\8\4859d7ab33441e4b29131b53df3a1d9402921f6e
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
