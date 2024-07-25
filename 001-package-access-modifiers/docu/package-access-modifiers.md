@@ -101,7 +101,7 @@ to classes and interfaces defined in **the same package** and to **all derived
   members.
   - The nonaccess modifiers covered by this exam are abstract, final, and static.
   - The abstract keyword, when prefixed to the definition of a concrete class, can
-  change it to an abstract class, even if it doesn’t define any abstract methods.
+  change it to an abstract class, even if it does not define any abstract methods.
   - An abstract class can’t be instantiated.
   - An interface is implicitly abstract. The Java compiler automatically adds the
   keyword abstract to the definition of an interface (which means that adding
@@ -144,3 +144,8 @@ use it.
 - Multithreading and concurrency—Java defines classes and interfaces to enable
 developers to develop multithreaded code.
 - Java isn’t a single-threaded language.
+## LateX
+
+$$
+\int x^2 \, dx = \frac{x^3}3 + C
+$$
