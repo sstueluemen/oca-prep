@@ -1,6 +1,6 @@
 
 •
-java:S1104"MMake z a static final constant or non-public and provide accessors if needed.(äÛ”øÿÿÿÿ8Ä«ëÌ2J$2073cf8e-54f2-448a-a26c-9db005f410f6
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÆë8Å«ëÌ2J$51e857c6-928c-4c84-b044-50f3d51cde01
+java:S1104"MMake z a static final constant or non-public and provide accessors if needed.(äÛ”øÿÿÿÿ8Ä«ëÌ2J$715a7573-c8b5-4573-94cb-efcb337280c7
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÆë8Å«ëÌ2J$fc82c5a6-b13d-4e83-878a-e45e0de07121
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©¯Ğûøÿÿÿÿ8Ç«ëÌ2J$d29be52a-eee5-4e53-b725-fb0026851c9c
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©¯Ğûøÿÿÿÿ8Ç«ëÌ2J$40a3b026-a5f3-4354-8dbf-beac3ecd54f0
