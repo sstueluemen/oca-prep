@@ -1,8 +1,8 @@
 
 –
-java:S1104"NMake pr a static final constant or non-public and provide accessors if needed.(‡ÂñÖúÿÿÿÿ8ÁñÌ2J$697bda42-78c5-4cb2-818c-97b34cf522cb
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÆë8¨õğË2J$3899cbc3-5718-4475-9fa8-cb6a9c40ba5f
+java:S1104"NMake pr a static final constant or non-public and provide accessors if needed.(‡ÂñÖúÿÿÿÿ8ÁñÌ2J$6357331a-66fd-4800-a4c5-963f3a9015ce
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÆë8¨õğË2J$5ace6599-45da-43df-9745-f14c46fabbae
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãëš²ÿÿÿÿÿ8©õğË2J$ed8f6ffa-2ab7-4046-b47e-9a5b08121095
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãëš²ÿÿÿÿÿ8©õğË2J$af0d5426-3bc8-4ffb-8b46-f4ad392c07bc
 Š
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ÆÈ³üÿÿÿÿ8—·òÌ2J$70480ca1-50b7-4d2f-955b-f5a17017ab5d
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ÆÈ³üÿÿÿÿ8—·òÌ2J$ac940350-48ac-452a-830f-dc24769aa726
