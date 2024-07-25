@@ -111,7 +111,7 @@ to classes and interfaces defined in **the same package** and to **all derived
   - A variable can’t be defined as an abstract variable.
   - The static modifier can be applied to inner classes, inner interfaces, variables,
   and methods. Inner classes and interfaces aren’t covered in this exam.
-  - A method can’t be defined as both abstract and static.
+  - **A method can’t be defined as both abstract and static.**
   - static attributes (fields and methods) are common to all instances of a class
   and aren’t unique to any instance of a class.
   - static attributes exist independently of any instances of a class and may be
