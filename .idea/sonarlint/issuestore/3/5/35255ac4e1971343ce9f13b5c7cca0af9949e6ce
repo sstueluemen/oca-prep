@@ -1,0 +1,8 @@
+
+•
+java:S1104"MMake z a static final constant or non-public and provide accessors if needed.(äÛ”øÿÿÿÿ8…óøÊ2J$13cfb70e-5789-474d-8ea7-007ccf9f1543
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÆë8†óøÊ2J$66bbf63c-8f63-442a-bed5-6556bb31627a
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©¯Ğûøÿÿÿÿ8ä‰ŒË2J$f914e56d-4e09-4271-b133-6165dc7ff877
+m
+java:S1068"%Remove this unused "t" private field.(¸š®àıÿÿÿÿ8ŒóøÊ2J$5e5c674f-ea47-420d-a39b-45d4e6794a83

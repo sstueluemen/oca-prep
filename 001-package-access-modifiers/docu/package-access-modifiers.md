@@ -56,11 +56,10 @@ main method.
 
 ## packages
 
-- You can use packages to group together a related set of classes and interfaces.
-- By default, all classes and interfaces in separate packages and subpackages
-aren’t visible to each other.
-- The package and subpackage names are separated using a dot.
-- All classes and interfaces in the same package are visible to each other.
+- Packages are used to group together a related set of classes and interfaces.
+- By default, **all classes and interfaces in separate packages and subpackages** aren’t visible to each other.
+- The package and subpackage names are separated using a **dot**.
+- All classes and interfaces in the same package are **visible** to each other.
 - An import statement allows the use of simple names for packaged classes and
 interfaces defined in other packages.
 - You can’t use the ``import`` statement to access multiple classes or interfaces with
@@ -76,3 +75,56 @@ regardless of whether it’s defined within the same directory or not.
 attempt to do so will cause the compilation of the class to fail.
 - The members of default packages are accessible only to classes or interfaces
 defined in the same directory on your system.
+## Access modifiers
+  The access modifiers control the accessibility of your class and its members outside the class and package.
+  - Java(8) defines four access levels: public, protected, default, and private.
+  - Java defines three access modifiers: public, protected, and private.
+  - The public access modifier is the least restrictive access modifier.
+  - Classes and interfaces defined using the public access modifier are accessible
+  to related and unrelated classes outside the package in which they’re defined.
+  - The members of a class defined using the protected access modifier are accessible 
+to classes and interfaces defined in **the same package** and to **all derived
+  classes**, even if they’re defined in separate packages.
+
+  - The members of a class defined without using an explicit access modifier are
+  defined with package accessibility (also called default accessibility).
+  - The members with package access are accessible only to classes and interfaces
+  defined in the same package.
+  - A class defined using default access can’t be accessed outside its package.
+  - The members of a class defined using a private access modifier are accessible
+  only to the class in which they’re defined. It doesn’t matter whether the class or
+  interface in question is from another package or has extended the class. Private
+  members are not accessible outside the class in which they’re defined.
+  - The private access modifier is the most restrictive access modifier.
+ ## Non-access modifiers:
+  - The nonaccess modifiers change the default properties of a Java class and its
+  members.
+  - The nonaccess modifiers covered by this exam are abstract, final, and static.
+  - The abstract keyword, when prefixed to the definition of a concrete class, can
+  change it to an abstract class, even if it doesn’t define any abstract methods.
+  - An abstract class can’t be instantiated.
+  - An interface is implicitly abstract. The Java compiler automatically adds the
+  keyword abstract to the definition of an interface (which means that adding
+  the keyword abstract to the definition of an interface is redundant).
+  - An abstract method doesn’t have a body. When a non-abstract class extends a
+  class with an abstract method, it must implement the method.
+  - A variable can’t be defined as an abstract variable.
+  - The static modifier can be applied to inner classes, inner interfaces, variables,
+  and methods. Inner classes and interfaces aren’t covered in this exam.
+  - A method can’t be defined as both abstract and static.
+  - static attributes (fields and methods) are common to all instances of a class
+  and aren’t unique to any instance of a class.
+  - static attributes exist independently of any instances of a class and may be
+  accessed even when no instances of the class have been created.
+  - static attributes are also known as class fields or class methods because they’re
+  said to belong to their class, not to any instance of that class.
+  - A static variable or method can be accessed using the name of a reference
+  object variable or the name of a class.
+  - A static method or variable can’t access non-static variables or methods of a
+  class. But the reverse is true: non-static variables and methods can access
+  static variables and methods.
+  - static classes and interfaces are a type of nested classes and interfaces, but
+  they aren’t covered in this exam.
+
+  - You can’t prefix the definition of a top-level class or an interface with the keyword static. A top-level class or interface is one that isn’t defined within another
+  class or interface.
