@@ -126,5 +126,21 @@ to classes and interfaces defined in **the same package** and to **all derived
   - static classes and interfaces are a type of nested classes and interfaces, but
   they aren’t covered in this exam.
 
-  - You can’t prefix the definition of a top-level class or an interface with the keyword static. A top-level class or interface is one that isn’t defined within another
+  - You can’t prefix the definition of a top-level class or an interface with the keyword static. A top-level class or interface is one that isn’t defined within another
   class or interface.
+
+## Features and components of Java:
+- Object orientation—Java emulates real-life object definition and behavior. It uses
+classes, interfaces, or enums to define all its code.
+- Abstraction—Java lets you abstract objects and include only the required properties and behavior in your code.
+- Encapsulation—The state or the fields of a class are protected from unwanted
+access and manipulation.
+- Inheritance—Java enables its classes to inherit other classes and implement interfaces. The interfaces can inherit other interfaces.
+- Polymorphism—Java enables instances of its classes to exhibit multiple behaviors
+for the same method calls.
+- Type safety—In Java, you must declare a variable with its data type before you can
+use it.
+- Automatic memory management—Java uses garbage collectors for automatic memory management. They reclaim memory from objects that are no longer in use.
+- Multithreading and concurrency—Java defines classes and interfaces to enable
+developers to develop multithreaded code.
+- Java isn’t a single-threaded language.
