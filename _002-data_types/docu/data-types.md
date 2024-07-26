@@ -141,10 +141,67 @@ The value of the variable ``inclination`` here is $120.1$.
 - The underscore rules are generally the same as the other numeric literal values. In addition:
     + Underscore can not be placed prior to a ``f``, `F`, `D` or `d` suffix.
     + Underscore can not be placed adjacent to a decimal point.
-  ````java
-    float floatLiteral = 100._48F; 
-    double doubleLiteral = 100_.87;
-    float floatLiteral2 = 100.48_F;
-    double doubleLiteral2 = 100.87_d;
 
+````java
+    float floatLiteral = 100._48F;
+double doubleLiteral = 100_.87;
+float floatLiteral2 = 100.48_F;
+double doubleLiteral2 = 100.87_d;
 ````
+
+## `char`
+
+- A `char` is an **unsigned integer** that can store 16-bit Unicode characters like Japanese, Korean, French alphabet
+  characters.
+- Unicode characters are defined by ``\uxxxx`` (from \u0000 (or 0) to \uffff (or 65_535)).
+- The assigment to a ``char`` variable is done by '' (single quotes).
+    ````java
+        char c1='X';
+    ````
+- Double quotes are used by the assigment of String.
+- By the use of double quotes at the assigment of ``char`` variable produces ``Type mismatch`` error.
+- Java stores ``char`` data as an unsigned integer value (positive integer). But this value is the representation of the
+  ASCII character value of the character.
+    ````java
+    char c1 = 122; // assign z to c1
+   ````
+  In this example ASCII value of 122 is character 'z', but the '\u0122' Unicode is not equal to 'z'. (
+  s. https://en.wikipedia.org/wiki/List_of_Unicode_characters)
+
+- ``char`` is unsigned integer and can not be assigned negative numbers.
+    ````java
+        char c3=-122; // can not be compiled
+    ````
+
+- But casting is possible in this case.
+
+    ````java
+    char c3 = (char) -122; //
+    ````
+- Casting is the forceful conversion of one data type to another one.
+- At the casting of a negatively assigned integer to a ``char`` can lead unexpected storages. Because the sign bit is
+  stored as the part of the integer value.
+
+## Identifiers
+
+- Identifiers are names of packages, classes, interfaces, methods, and variables.
+- The length of the identifiers has no limit.
+- Identifiers can use in any position (_)
+- Identifiers can use in any position ( $, £, ¢, ¥, and others)
+- Identifiers can start with a letter(a-z, A-Z), a currency sign or an underscore.
+- Identifiers can not start with a digit (0-9), but can be used in any position except Start.
+- special characters of Java can not be used in any position in identifiers: ``!, @, #, %, ^, &, *, (, ),
+  ', :, ;, [, /, \, }`` und Leer Zeichen
+- Valid Identifiers: ``isPrime, $value, _cosine, Name, nameAndSurname, degree, AGE, _TOTaL___``
+- Invalid Identifiers: ``3dogs, %prozentValue, Digital!, a@domain.org``
+- Java keywords and reserved words can not be used as identifier.
+- Diese are invalid identifiers: ``null, goto, if, true, do, ...``
+- But can be used in the identifiers-not only. Diese are valid: ``trueFalse, isTrue, nullCheck, doIt``
+- In practice, variables are defined as camelCase(not necessary).
+- Class names are usually defined in PascalCase, but preferred usually a single word as class name.
+- Constants are generally defined with CAPITALLETTERS. ```VAT, VALUEADDEDTAX, MEHRWERTSTEUER```
+- Casings:
+    + camelCase: int numberOfStudents = 1;
+    + PascalCase: int NumberOfStudents = 2;
+    + snake_case: int number_of_students = 3;
+    + kebap-case: int number-of-students = 4; * not in Java, generally in URL names
