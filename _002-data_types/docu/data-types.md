@@ -111,7 +111,7 @@ long number = 10_L;
 int i = Integer.parseInt("12_33");  //Number Format Exception
 ```
 
-## Floating Number `double` and `float`
+## Floating Numbers: `double` and `float`
 
 - `float` store decimal numbers in 32 Bits.
 - `double` store decimal numbers in 64 Bits.
@@ -120,3 +120,31 @@ int i = Integer.parseInt("12_33");  //Number Format Exception
   |-----------|---------|----------------------------------------|
   | `float`   | 32 Bits | ±1.4E-45 to ±3.4E+38, ±∞, ±0, NaN |
   | `double`  | 64 Bits | ±4.9E-324 to ±1.79E+308, ±∞, ±0, NaN |
+- The default type of decimal literal is double.
+- The ``float`` type is defined by the use of `f` or `F` suffix.
+    ````java
+    float average = 20.129F;
+    float orbit = 1765.65f;
+    double inclination = 120.1762;
+
+    ````
+- Scientific notation ``E`` or `e` can also be used to assign a decimal number.
+
+````java
+    double inclination = 1.201E2;
+````
+
+The value of the variable ``inclination`` here is $120.1$.
+
+- The suffix ``D`` or `d` can also be used to specify a double literal. But it is redundant because the default type of
+  a decimal without any suffix is `double`.
+- The underscore rules are generally the same as the other numeric literal values. In addition:
+    + Underscore can not be placed prior to a ``f``, `F`, `D` or `d` suffix.
+    + Underscore can not be placed adjacent to a decimal point.
+  ````java
+    float floatLiteral = 100._48F; 
+    double doubleLiteral = 100_.87;
+    float floatLiteral2 = 100.48_F;
+    double doubleLiteral2 = 100.87_d;
+
+````
