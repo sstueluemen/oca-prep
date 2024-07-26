@@ -2,10 +2,10 @@ package primitives;
 
 public class Integers {
     int baseDecimal = 1_342_322;
-    int octValue = 04_12;
+    int octValue = 04_02;
     int octValue1 = 0_412;
     int hexValue = 0x10_AB_32;
-    int binaryValue = 0b1000_0100_1101;
+    int binaryValue = 0b1111_1101;
 
     //**********************************
 //    int baseDecimal1=_10;
@@ -18,7 +18,12 @@ public class Integers {
 
 //    long number=10_L;
 
-    int i = Integer.parseInt("12_33");  //Number Format exception
+    //int i = Integer.parseInt("12_33");  //Number Format exception
     int a = 1;
 
+    public void display() {
+        System.out.printf("base decimal:%d  octal values: %d %d\n", baseDecimal, octValue, octValue1);
+        System.out.printf("hex:%d  binary: %d  ", hexValue, binaryValue);
+    }
 }
+
