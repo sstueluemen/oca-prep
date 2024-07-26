@@ -204,4 +204,4 @@ double doubleLiteral2 = 100.87_d;
     + camelCase: int numberOfStudents = 1;
     + PascalCase: int NumberOfStudents = 2;
     + snake_case: int number_of_students = 3;
-    + kebap-case: int number-of-students = 4; * not in Java, generally in URL names
+    + kebap-case: int number-of-students = 4; * not in Java, generally in URL names, project names, HTML and CSS

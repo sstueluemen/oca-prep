@@ -1,0 +1,26 @@
+
+	java:S116"MRename this field "_i" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÆÅ‹8«‘Á‚2J$eb68fe1b-b8f6-4b2f-889b-85aa55c3643a
+“	java:S116"SRename this field "$myMoney" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÏ8«‘Á‚2J$19608a97-ce8a-42cf-9c1c-f3c7ef389a34
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(­ùœ°úÿÿÿÿ8­‘Á‚2J$1f502dc6-61b8-4bcc-a1c6-b295fccc1223
+r	java:S106"+Replace this use of System.out by a logger.(­ùœ°úÿÿÿÿ8®‘Á‚2J$5088145c-5410-4f2a-8473-1e46cadbb3de
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(’¯äëıÿÿÿÿ8¯‘Á‚2J$80b44e0c-533c-40f1-8f5a-16b620cd589d
+m
+java:S3457"%String contains no format specifiers.(’¯äëıÿÿÿÿ8¯‘Á‚2J$590b4588-ae00-4a75-8216-1db4c2bc1c6f
+r	java:S106"+Replace this use of System.out by a logger.(’¯äëıÿÿÿÿ8¯‘Á‚2J$142ea088-b4a7-464d-abff-45fbf4512399
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ê¬®°úÿÿÿÿ8¯‘Á‚2J$ee50337f-b26c-407e-bddf-bfdb334fe213
+m
+java:S3457"%String contains no format specifiers.(ê¬®°úÿÿÿÿ8¯‘Á‚2J$81035833-5182-44d3-9fb5-8ab2725fc525
+r	java:S106"+Replace this use of System.out by a logger.(ê¬®°úÿÿÿÿ8¯‘Á‚2J$1b5e51cb-841f-42c3-971e-90fff797be66
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ª½¸—ÿÿÿÿÿ8¯‘Á‚2J$c59966f9-506c-40a6-911f-59e51ca06bfa
+m
+java:S3457"%String contains no format specifiers.(ª½¸—ÿÿÿÿÿ8¯‘Á‚2J$d5a42754-b79d-4687-898b-e8f698df45ee
+r	java:S106"+Replace this use of System.out by a logger.(ª½¸—ÿÿÿÿÿ8°‘Á‚2J$d6993667-c4c9-42cf-a8b9-a9c83b93efe0
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(õ¸İÏûÿÿÿÿ8°‘Á‚2J$b691c9c3-0e6c-4202-8a6e-0b43b21b7e4e
+m
+java:S3457"%String contains no format specifiers.(õ¸İÏûÿÿÿÿ8°‘Á‚2J$5c871b2d-1b85-45b9-8954-d534082d52b4
+r	java:S106"+Replace this use of System.out by a logger.(õ¸İÏûÿÿÿÿ8°‘Á‚2J$d60eeddb-7dc8-41b5-9ecf-33b667b19fe8
