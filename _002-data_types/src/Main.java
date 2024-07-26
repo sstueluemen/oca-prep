@@ -1,3 +1,4 @@
+import primitives.Identifiers;
 import primitives.Integers;
 import primitives.Longs;
 
@@ -10,6 +11,9 @@ public class Main {
         System.out.println("\n=================");
         Longs l1 = new Longs();
         l1.display();
+
+        Identifiers identifiers = new Identifiers();
+        identifiers.display();
     }
 
 

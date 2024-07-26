@@ -1,6 +1,5 @@
 
 ]
-java:S1220""Move this file to a named package.8ÿıŸô2J$dfdf62c4-46ee-4af2-8341-c4c8b5ed3836
-r	java:S106"+Replace this use of System.out by a logger.(¿Àò„şÿÿÿÿ8…şŸô2J$2330c396-74c9-478e-96e6-420429f55cc4
-r	java:S106
-"+Replace this use of System.out by a logger.(À­Ûÿÿÿÿÿ8è°Áô2J$effec003-b08e-4629-9f54-5753057bc0dc
+java:S1220""Move this file to a named package.8ÿıŸô2J$f0ee2f3a-7849-4862-bb34-370696ee72f7
+r	java:S106"+Replace this use of System.out by a logger.(¿Àò„şÿÿÿÿ8…şŸô2J$0ee12ac3-19c9-46a4-9d04-557b784042a6
+r	java:S106"+Replace this use of System.out by a logger.(À­Ûÿÿÿÿÿ8è°Áô2J$01cf03e1-41c3-4bf0-aa33-f67ee0be2900
