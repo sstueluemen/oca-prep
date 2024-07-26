@@ -67,8 +67,6 @@ w
 G.idea/sonarlint/issuestore/4/8/4859d7ab33441e4b29131b53df3a1d9402921f6e,7\d\7d24edc77d60fdebaeecdbc1871cf629ea0c0079
 w
 G.idea/sonarlint/issuestore/f/6/f6dabbd0836bd4486d589cd53235ef7b60d64b67,3\c\3c086e66e17630381a12035a6edf6af3a25be008
-q
-A001-package-access-modifiers/docu/package-zugriffsmodifkatoren.md,6\f\6fc68eedea1b1012700d1857b096f69322f4d193
 p
 @001-package-access-modifiers/docu/package-zugriffmodifkatoren.md,6\e\6e5f1382a92ea98a609c4239997e981c692c834e
 Å
@@ -308,10 +306,6 @@ Q.idea/sonarlint/securityhotspotstore/c/9/c9b3776f6ce02f40809b5a2883142fcb439b13
 Q.idea/sonarlint/securityhotspotstore/c/6/c64f1221a534069fc2b79aeb54974c68e9ec36e8,a\8\a86b82614e58e0701b2fc014649c20423ac9e5d4
 Å
 Q.idea/sonarlint/securityhotspotstore/c/7/c70a7a6626b8a0cf958486c9aa1b9712276ab282,c\6\c630e28c65a88358189da6493f2bd1d3f71177f1
-Å
-Q.idea/sonarlint/securityhotspotstore/6/f/6fc68eedea1b1012700d1857b096f69322f4d193,2\5\256186b030fe162acd9188530af5e82a70070aba
-w
-G.idea/sonarlint/issuestore/6/f/6fc68eedea1b1012700d1857b096f69322f4d193,1\b\1b05aa71773ccc12944a7a4b0402b87f26dcdab7
 w
 G.idea/sonarlint/issuestore/0/4/04a3dce3d38f120d4724e6ab23ca43af02d71596,6\a\6a3b1b410c56f875f5896ef80ee6aae3ed1231bb
 w
@@ -446,7 +440,5 @@ R
 "_002-data_types/docu/data-types.md,e\9\e957f51c6b378332ef8d94aec2a378d26be5aa95
 \
 ,_002-data_types/src/primitives/Integers.java,5\7\576556abadf1e8f211c46a793cd0e7efd9091412
-X
-(_002-data_types/src/primitives/afaf.java,4\5\45327fc78652d8e37830e180e294b33d3dd0c62b
-V
-&_002-data_types/src/primitives/jk.java,4\1\4182ba79bbb5fd031f255a13bf37dd1af6d6fd71
+Y
+)_002-data_types/src/primitives/Longs.java,6\d\6d1dd476cf91eabc9b74bf2871de1252b5f60eeb
