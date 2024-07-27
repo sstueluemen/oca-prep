@@ -100,7 +100,7 @@ int binaryValue = 0b1000_0100_1101;
       (see the following example)
 
 ```java
- int baseDecimal1 = _10;
+int baseDecimal1 = _10;
 int baseDecimal2 = 1_;
 int getOctValue1 = 0_123_;
 int binaryValue1 = 0b_10;
@@ -143,7 +143,7 @@ The value of the variable ``inclination`` here is $120.1$.
     + Underscore can not be placed adjacent to a decimal point.
 
 ````java
-    float floatLiteral = 100._48F;
+float floatLiteral = 100._48F;
 double doubleLiteral = 100_.87;
 float floatLiteral2 = 100.48_F;
 double doubleLiteral2 = 100.87_d;
@@ -195,6 +195,18 @@ double doubleLiteral2 = 100.87_d;
 - Valid Identifiers: ``isPrime, $value, _cosine, Name, nameAndSurname, degree, AGE, _TOTaL___``
 - Invalid Identifiers: ``3dogs, %prozentValue, Digital!, a@domain.org``
 - Java keywords and reserved words can not be used as identifier.
+  Java Keywords(Java 8)
+  **abstract default goto package this
+  assert do if private throw
+  boolean double implements protected throws
+  break else import public transient
+  byte enum instanceof return true
+  case extends int short try
+  catch false interface static void
+  char final long strictfp volatile
+  class finally native super while
+  const float new switch
+  continue for null synchronized**
 - Diese are invalid identifiers: ``null, goto, if, true, do, ...``
 - But can be used in the identifiers-not only. Diese are valid: ``trueFalse, isTrue, nullCheck, doIt``
 - In practice, variables are defined as camelCase(not necessary).
@@ -205,3 +217,37 @@ double doubleLiteral2 = 100.87_d;
     + PascalCase: int NumberOfStudents = 2;
     + snake_case: int number_of_students = 3;
     + kebap-case: int number-of-students = 4; * not in Java, generally in URL names, project names, HTML and CSS
+
+## Object Reference Variables
+
+- Object reference variables =references variables = object references
+- Objects are instances of classes: predefined or user-defined classes
+- An object reference is **a memory address** that points to a memory area where an object's data located.
+
+````java
+    Animal animal = new Animal();
+````
+
+Animal: Type of object reference variable
+animal: name of object reference variable
+Animal(): Object
+new: Operator used to create a new object
+
+- Reference variable is stored in **Stack**.
+- Object is located in **Heap**.
+  ![reference-object-in-memory.png](reference-object-in-memory.png)
+- The default value of all types of object reference variables is ``null``.
+- The literal value for all types of object reference variables is ``null``.
+- Primitive variables store the actual values, reference variables store the addresses of the objects they refer to.
+  ![primitive-and-reference-stores.png](primitive-and-reference-stores.png)
+
+## Operators
+
+| Operator type | Operators                | Puspose                                                |
+|---------------|--------------------------|--------------------------------------------------------|
+| Assigment     | =, +=, -=, *=, /=        | Assign value to a variable                             |
+| Arithmetic    | +, -, *, /, %, ++, --    | Add, subtract, multiply, divide, and modulus primitive |
+| Relational    | <, < =, >, > =, = =, ! = | Compare primitives                                     |
+| Logical       | !, &&, \| \|             | Compare primitives                                     |
+
+### Assignment Operators
