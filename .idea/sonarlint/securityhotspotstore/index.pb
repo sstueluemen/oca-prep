@@ -444,3 +444,17 @@ Y
 )_002-data_types/src/primitives/Longs.java,6\d\6d1dd476cf91eabc9b74bf2871de1252b5f60eeb
 _
 /_002-data_types/src/primitives/Identifiers.java,5\8\583f0b7086ac491a2fb5947efc17fc876a546f05
+o
+?_001-package-access-modifiers/src/test/TestInheritedClient.java,1\b\1b4bd86fd1ca9ee66d0efd07b86bebf5726c1929
+q
+A_001-package-access-modifiers/docu/package-zugriffmodifkatoren.md,e\6\e6e081b1cb6d58775d39b69a0312959fa85dab86
+g
+7_001-package-access-modifiers/src/pack1/Protected1.java,0\0\006e2197179173d033f7ff80cc9cd450133d0a48
+n
+>_001-package-access-modifiers/docu/package-access-modifiers.md,7\9\798575efaef8f7dfe0d50e03be8d0bf579f56e62
+g
+7_001-package-access-modifiers/src/pack1/Protected2.java,0\8\08dfcb6d4e45fd2d6378a18b36786a0cac8c976d
+n
+>_001-package-access-modifiers/001-package-access-modifiers.iml,9\8\986069513f7ba96ab6f7cb342178973bccee1552
+[
++_001-package-access-modifiers/src/Main.java,4\d\4d11b67c5e3fd86b454a50ac4d48de299df2704d
