@@ -1,22 +1,12 @@
 
-m
-=001-package-access-modifiers/docu/package-access-modifiers.md,1\2\121baec8213732047cc96666201e8c88b005fd49
-Z
-*001-package-access-modifiers/src/Main.java,2\1\21f1e53d9293369de50ff07a783456e82e96324b
 
 Q.idea/sonarlint/securityhotspotstore/1/2/121baec8213732047cc96666201e8c88b005fd49,7\f\7fa1c445fcee6df702bbcaf51db447d5e49cf7d1
 w
 G.idea/sonarlint/issuestore/1/2/121baec8213732047cc96666201e8c88b005fd49,6\b\6baf9407d2b5f0f1747ac56642053b5248f9f5ec
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-n
->001-package-access-modifiers/src/test/TestInheritedClient.java,0\0\003351c611f31a16435b2b01817491ac5baca024
-f
-6001-package-access-modifiers/src/pack1/Protected1.java,5\a\5abcdd5cdb87a2257c26c9642ec313de9ae9e6cc
 
 Q.idea/sonarlint/securityhotspotstore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,6\b\6bc361fab678f74f7da63b229ace2fc9d3130980
-f
-6001-package-access-modifiers/src/pack1/Protected2.java,9\7\9733851e0d5fc2a4f5985cd67ab70235014a6de4
 
 Q.idea/sonarlint/securityhotspotstore/3/4/3420706fe48d851b3748614f45cc7014f271495f,2\3\23982e3999b722df5fc91fdf88f4779f6ac2cfe9
 
@@ -67,8 +57,6 @@ w
 G.idea/sonarlint/issuestore/4/8/4859d7ab33441e4b29131b53df3a1d9402921f6e,7\d\7d24edc77d60fdebaeecdbc1871cf629ea0c0079
 w
 G.idea/sonarlint/issuestore/f/6/f6dabbd0836bd4486d589cd53235ef7b60d64b67,3\c\3c086e66e17630381a12035a6edf6af3a25be008
-p
-@001-package-access-modifiers/docu/package-zugriffmodifkatoren.md,6\e\6e5f1382a92ea98a609c4239997e981c692c834e
 
 Q.idea/sonarlint/securityhotspotstore/7/f/7fa1c445fcee6df702bbcaf51db447d5e49cf7d1,c\c\cc5e20e734e96ab3803cdb9e0cdfd58802bffb8a
 
@@ -458,3 +446,9 @@ n
 >_001-package-access-modifiers/001-package-access-modifiers.iml,9\8\986069513f7ba96ab6f7cb342178973bccee1552
 [
 +_001-package-access-modifiers/src/Main.java,4\d\4d11b67c5e3fd86b454a50ac4d48de299df2704d
+g
+7_002-data_types/src/primitives/AssignmentOperators.java,0\f\0f3675fc946558be551970c4b1c790ecb5903551
+m
+=_002-data_types/src/primitives/DefaultvaluesOfPrimitives.java,8\1\81faf26ce56bd86403dde704a5b50ecf6eccfd74
+Y
+)_002-data_types/src/primitives/Chars.java,9\a\9ab3ccfa4e0941bc09afa0e5f68181555d65f34d

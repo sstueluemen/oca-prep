@@ -1,6 +1,4 @@
-import primitives.Identifiers;
-import primitives.Integers;
-import primitives.Longs;
+import primitives.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +12,17 @@ public class Main {
 
         Identifiers identifiers = new Identifiers();
         identifiers.display();
+
+        AssignmentOperators assignmentOperators = new AssignmentOperators();
+        assignmentOperators.grundBerechnungen();
+
+        DefaultvaluesOfPrimitives dp = new DefaultvaluesOfPrimitives();
+        dp.defaultValues();
+
+        Chars chars = new Chars();
+        chars.displayCharOperatorResults();
+
+
     }
 
 

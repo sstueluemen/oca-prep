@@ -149,6 +149,16 @@ float floatLiteral2 = 100.48_F;
 double doubleLiteral2 = 100.87_d;
 ````
 
+- Default values of primitives in Java.
+    + ``byte``: The default value is 0.
+    + ``short``: The default value is 0.
+    + ``int``: The default value is 0.
+    + ``long``: The default value is ``0L``.
+    + ``float``: The default value is ``0.0f``.
+    + ``double``: The default value is ``0.0d``.
+    + ``char``: The default value is ``\u0000`` (``null`` character).
+    + ``boolean``: The default value is ``false``.
+
 ## `char`
 
 - A `char` is an **unsigned integer** that can store 16-bit Unicode characters like Japanese, Korean, French alphabet
@@ -243,7 +253,7 @@ new: Operator used to create a new object
 
 ## Operators
 
-| Operator type | Operators                | Puspose                                                |
+| Operator type | Operators                | Purpose                                                |
 |---------------|--------------------------|--------------------------------------------------------|
 | Assigment     | =, +=, -=, *=, /=        | Assign value to a variable                             |
 | Arithmetic    | +, -, *, /, %, ++, --    | Add, subtract, multiply, divide, and modulus primitive |
@@ -251,3 +261,101 @@ new: Operator used to create a new object
 | Logical       | !, &&, \| \|             | Compare primitives                                     |
 
 ### Assignment Operators
+
+- The simple assignment operator, =, is the most frequently used operator.
+- The +=, -=, *=, and /= operators are short forms of addition, subtraction, multiplication, and division with
+  assignment.
+
+```m
+a -=b is equal to a =a –b
+a +=b is equal to a = a + b
+a *=b  is equal to a =a *b
+a /=b is equal to a =a /b
+a %= b is equal to a =a %b
+```
+
+- In der Mathematik bezeichnet der Modulo-Operator die Operation, bei der der Rest einer Division zweier Zahlen
+  berechnet wird.
+- Squeezing the variables that can store a larger range of values into variables with a shorter range.
+  Example:
+
+````java
+long num = 100976543356L;
+int val = num; 
+````
+
+not allowed.
+
+- An ``int`` can easily fit into a ``long`` because there’s enough room for it.
+
+````java
+int integerValue = 100;
+long longValue = integerValue; 
+````
+
+- You can’t use the assignment operators to assign a ``boolean`` value
+  to variables of type ``char, byte, int, short, long, float, or double``, or vice versa.
+- Assignment multiple values on the same line using the **assignment operator (=)** is allowed.
+
+````java
+int a = 7, b = 10, c = 8;
+a =b =c; 
+````
+
+## Arithmetic Operators
+
+| Operator | Purpose                                         | Usage                | Answer                           |
+|----------|-------------------------------------------------|----------------------|----------------------------------|
+| +        | Addition                                        | 12 + 10              | 22                               |
+| -        | Subtraction                                     | 19 – 29              | -10                              |
+| *        | Multiplication                                  | 101 * 45             | 4545                             |
+| /        | Division (quotient) (Integer)                   | 10 / 6               | 1                                |
+| /        | Division (quotient) (Double)                    | 10.0 / 6.0           | 1.66666666667                    |
+| %        | Modulus (remainder in division)                 | 10 % 6 or 10.0 % 6.0 | 4 or 4.0                         |
+| ++       | Unary increment operator; increments value by 1 | ++var or var++       | 11 (assuming value of var is 10) |
+| --       | Unary decrement operator; decrements value by 1 | --var or var--       | 9 (assuming value of var is 10)  |
+
+- Unary increment and decrement operators are allowed to use only with variables but not with literal values. If you do,
+  the code won’t compile.
+
+- You can use all arithmetic operators with the ``char`` primitive data type, including unary increment and decrement
+  operators.
+
+````java
+char char1 = 'a';
+System.out.
+
+println(char1); //a
+System.out.
+
+print(char1+char1); //194
+
+char char2 = 'a';
+System.out.
+
+print(char2-char2); //0
+````
+
+### Implicit Widening of data types in a aritmetic operation
+
+- All ``byte, short``, and ``char`` values are automatically widened to ``int`` when used as operands for arithmetic
+  operations.
+
+````java
+byte age1 = 10;
+byte age2 = 20;
+short sum = age1 + age2;
+````
+
+- If a ``long`` value is involved somewhere, then everything, including ``int`` values, is widened to ``long``.
+- If an arithmetic operation includes a data type of ``float`` or ``double``, all operand values are widened to double.
+- If you define variables as ``final``variables, then the compiler is assured that their sum,
+  can be assigned to a variable of type ``short``, without any loss of precision (widening).
+
+````java
+final byte age1 = 10;
+final byte age2 = 20;
+short sum = age1 + age2; 
+````
+
+### Unary increment und decrement
