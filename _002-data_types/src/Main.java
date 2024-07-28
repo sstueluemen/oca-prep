@@ -21,8 +21,7 @@ public class Main {
 
         Chars chars = new Chars();
         chars.displayCharOperatorResults();
-
-
+        
     }
 
 
