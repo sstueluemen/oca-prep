@@ -1,4 +1,5 @@
 import primitives.*;
+import wrapperclasses.Wrappers;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +22,14 @@ public class Main {
 
         Chars chars = new Chars();
         chars.displayCharOperatorResults();
-        
+        Integer integer = 2;
+        System.out.println("\n==================================");
+        Wrappers wrappers = new Wrappers();
+        wrappers.displayBooleanWrappers();
+        wrappers.displayIntegerWrappers();
+        System.out.println("\n==================================");
+        wrappers.displayCharacters();
+
     }
 
 
