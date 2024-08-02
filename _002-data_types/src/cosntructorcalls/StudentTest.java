@@ -15,7 +15,7 @@ public class StudentTest {
         Student st1 = new Student();
         Student st2 = new Student("Mike Hammer");
         Student st3 = new Student("Jack Hammer", 2, "C++");
-        System.out.println(st1.toString());
+        System.out.println(st1);
         System.out.println(st2.toString());
         System.out.println(st3.toString());
     }
@@ -28,11 +28,13 @@ class Student {
     String course;
 
     Student() {
-        this("Unknown name");
+        this("Peter Parker");
     }
 
     Student(String name) {
         this(name, 0000);
+        //this(name,1);
+        //new Student(name, 0);
     }
 
     private Student(String name, long number) {
@@ -47,10 +49,27 @@ class Student {
 
     @Override
     public String toString() {
+//        Student st = new Student();
+//        System.out.println(st.toString()); // causes Stackoverflow
         return "Student{" +
                 "name='" + name + '\'' +
                 ", number=" + number +
                 ", course='" + course + '\'' +
                 '}';
+    }
+}
+
+class Employee {
+    String name;
+    int age;
+
+    Employee() {
+        this("Jack Doe", 32);
+        //this (); //self call
+    }
+
+    Employee(String newName, int newAge) {
+        name = newName;
+        age = newAge;
     }
 }
