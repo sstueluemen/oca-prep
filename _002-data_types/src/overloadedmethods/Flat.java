@@ -31,6 +31,7 @@ public class Flat {
         this.numberOfWCs = numberOfWCs;
         this.numberOfBalconies = numberOfBalconies;
     }
+    
 
     public Flat(String typeOfFlat, double squareMeter, int numberOfWCs, int numberOfBalconies, boolean privateGarage) {
         this.typeOfFlat = typeOfFlat;
